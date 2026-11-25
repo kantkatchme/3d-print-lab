@@ -32,7 +32,7 @@ Each check costs a little money. The history file records tokens and USD per ver
 You need: a printer in Home Assistant ([Elegoo CC2 integration](https://github.com/danielcherubini/elegoo-homeassistant) via HACS), Python 3.9+, `curl`, and the [Claude Code](https://claude.com/claude-code) CLI logged in (the guard calls `claude -p`).
 
 ```bash
-git clone https://github.com/<you>/3d-print-lab && cd 3d-print-lab
+git clone https://github.com/kantkatchme/3d-print-lab && cd 3d-print-lab
 cp .env.example .env        # fill in your values
 set -a; . ./.env; set +a    # load them
 python3 printguard/guard.py # one manual run while a print is going
